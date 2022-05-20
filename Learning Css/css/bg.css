@@ -1,0 +1,30 @@
+/*
+body{
+    background-image: url("../images/bg1.jpeg");
+    
+}
+*/
+
+body{
+    background: url("../images/bgwolf.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity:0.75 ;
+    
+}
+.hero{
+    background-color:dimgray;
+}
+i{
+    color:aquamarine
+}
+h1{
+    color: floralwhite;
+    text-align: center;
+    /*border: 3px solid red;*/
+    
+    width:300px;
+    padding: 20px;
+    margin: 300px auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+}

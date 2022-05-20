@@ -1,0 +1,40 @@
+/* my style sheet */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+
+img{
+    border: 10px solid green;
+}
+
+p{
+    border: 10px dotted pink;
+}
+
+cite{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+a:link{
+    color:green;
+    font-size: 2rem;
+
+}
+a:visited{
+    color:indianred;
+    font-weight: normal;
+
+}
+
+a:hover{
+    color:khaki;
+    text-decoration: underline;
+    background-attachment: white;
+
+}
