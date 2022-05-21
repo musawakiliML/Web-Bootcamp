@@ -15,7 +15,147 @@
         <li>New HTML5 form controls</li>
     </ul>
     <hr/>
+    
+    <h1>Form Structure</h1>
+    <p>Creating a form using the form tag</p>
+    <form action="" method="get">
+        <p>This is where our form controls will appear.</p>
+        <h2>Text Input, Password, Textarea, Radio Button, Checkbox, DropDown List,</h2>
+        <p>Username:
+            <input type="text" name="username" id="" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="password" name="password" id="" size="15" maxlength="30" />
+        </p>
+        <p>What's your plan for the next 5 years?</p>
+        <textarea name="plan" id="" cols="30" rows="10">Enter your answer...</textarea>
+        <p>Please Select Your favorite programming language:
+            <br/>
+            <input type="radio" name="programming" id="" value="c++" checked="checked" /> C++
+            <input type="radio" name="programming" id="" value="python" /> Python
+            <input type="radio" name="programming" id="" value="rust" /> Rust
+        </p>
+        <p>Please your best Competitive Programming Website:
+            <br />
+            <input type="checkbox" name="cp" id="" value="leetcode" checked="checked"> LeetCode
+            <input type="checkbox" name="cp" id="" value="codeforces"> CodeForces
+            <input type="checkbox" name="cp" id="" value="codewars"> Codewars
+        </p>
+        <p>What OS do you for porgramming?</p>
+        <select name="os" id=""> <!-- multiple="" size="" -->
+            <option value="macos" selected="">Mac OS</option>
+            <option value="windows">Windows</option>
+            <option value="linux">Linux</option>
+        </select>
+    </form>
+    <h3>File Input BOx</h3>
+    <form action="" method="post">
+        <p>Upload your picture:</p>
+        <input type="file" name="user_picture" id="" /> <br />
+        <input type="submit" value="Upload" />
+    </form>
+
+    <h3>Submit Button/image buttons</h3>
+    <form action="">
+        <p>Subcribe to my Newsletter:</p>
+        <input type="email" name="email" id="" />
+        <input type="submit" name="subscribe" value="Subscribe" />
+        <!--<input type="image" src="" alt="">-->
+    </form>
+
+    <h3>Button and Hidden Controls</h3>
+    <form action="">
+        <button>Add</button>
+        <input type="hidden" name="bookmark" value="page">
+    </form>
+
+    <h3>Labelling Form Controls</h3>
+    <label> Age: <input type="text" name="age" id=""></label>
+    <br>
+    Gender:
+    <input type="radio" name="gender" id="female" value="f">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="male" value="m">
+    <label for="male">Male</label>
 
 
+    <h3>Grouping Form Elements</h3>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Email: <br>
+            <input type="email" name="email" id="">
+        </label>
+        <br>
+        <label for="mobile">Mobile:</label> <br>
+        <input type="text" name="mobile" id="mobile"> <br>
+        <label for="telephone">Telephone:</label> <br>
+        <input type="tel" name="telephone" id="telephone"><br>
+    </fieldset>
+
+
+    <h2>HTML5: Form Validation</h2>
+    <form action="" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required="required"> <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required="required">
+        <input type="submit" name="submit" id="" value="Submit">
+    </form>
+    <h3>HTML5: Date Input</h3>
+    <form action="" method="post">
+        <label for="date">Birth Date:</label>
+        <input type="date" name="date" id="date">
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>HTML5: URL and Search Input</h3>
+
+    <form action="" method="post">
+        <label for="url">Please Enter website address:</label> <br>
+        <input type="url" name="website" id="url">
+        <input type="submit" value="Submit">
+        <p>Search:</p>
+        <input type="search" name="search" id="" placeholder="enter keyword">
+        <input type="submit" value="Search">
+
+    </form>
+    <hr>
+
+    <h2>Example Form</h2>
+
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="username" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="emailaddress" id="email">
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Your Review:</legend>
+        <label for="hear_us">How did you hear about us?</label>
+        <select name="droplist" id="hear_us">
+            <option value="google">Google</option>
+            <option value="linkedin">Linkedin</option>
+            <option value="web search">Web Search</option>
+        </select>
+        <br>
+        <p>Would you visit again?</p>
+        <input type="radio" name="yes" id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="no" id="no">
+        <label for="no">No</label>
+        <input type="radio" name="maybe" id="maybe">
+        <label for="maybe">Maybe</label>
+        <br>
+        <label for="comments">Comments:</label> <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br>
+        <input type="checkbox" name="signup" id="signup">
+        <label for="signup">Sign me up for email updates</label> 
+        <br>
+        <input type="submit" value="Submit Review">
+    </fieldset>
 </body>
 </html>
