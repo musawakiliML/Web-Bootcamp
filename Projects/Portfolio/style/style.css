@@ -44,9 +44,29 @@ a:hover{
     color: var(--hotmag);
     text-decoration: none;
 }
+img{
+    width: 100%;
+}
+.section-blue{
+    background-color: var(--dkblue);
+}
+.section-plum{
+    background-color: var(--plum);
+}
+.gradient {
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 2px;
+
+}
+
+
 #intro {
     font-size: 1rem;
     line-height: 1.5;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
 #intro .name{
@@ -69,10 +89,13 @@ a:hover{
     font-weight: normal;
     font-family: var(--mono);
     text-align: center;
-    background-color: var(--plum);
     margin: 0 auto;
     padding: 3rem 0;
     width: 400px;
+
+}
+section a{
+    color: var(--white);
 }
 
 #contact p:last-child{
@@ -127,11 +150,54 @@ nav [class*='fa-']:hover {
     background-color: var(--magenta);
     padding: 0.5rem;
     border-radius: 5px;
+    font-family: var(--mono);
+    text-decoration: none;
 }
 
 .button:hover{
     color: var(--white);
     background-color: var(--hotmag);
+}
+#projects{
+    padding: 4rem 1rem;
+}
+#project h2{
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+#project h3{
+    color: var(--aqua);
+}
+#project h4{
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin: 0;
+}
+.blackbox{
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--black);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#projects ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+    
+}
+#projects img{
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
 }
 
 @media (min-width: 850px){
