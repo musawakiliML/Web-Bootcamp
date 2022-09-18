@@ -23,6 +23,7 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    margin-bottom: 0.5%;
 }
 
 .screen{
@@ -33,7 +34,15 @@ body{
 }
 
 .calc-button{
-    
+    background-color:#d8d9db;
+    color: black ;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    flex-basis: 24.5%;
 }
+
+
+
 
 
