@@ -10,6 +10,8 @@
 
 ### List of Projects
 
-| Task  | Title | Description |
-| ----- | ----- | ----------- |
-| - [ ] |       |             |
+| Task    | Title | Description |
+| ------- | ----- | ----------- |
+| - [ x ] |       |             |
+| - [ x ] |       |             |
+| - [ x ] |       |             |
