@@ -42,7 +42,19 @@ body{
     flex-basis: 24.5%;
 }
 
+.calc-button:hover{
+    background-color: #ebebeb;
+}
 
+.calc-button:active{
+    background-color: #bbbcbe;
+}
 
+.double{
+    flex-basis:49.7%;
+}
 
+.triple{
+    flex-basis: 74.8%;
+}
 
