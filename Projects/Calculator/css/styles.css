@@ -58,3 +58,13 @@ body{
     flex-basis: 74.8%;
 }
 
+.function{
+    background-color: #df974c;
+}
+
+.function:active{
+    background-color:#dd8d37 ;
+}
+.function:hover{
+    background-color:#dfb07e;
+}
